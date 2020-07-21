@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7743587420275424454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2018206989409760826}
+  - component: {fileID: 4710383471167967343}
+  m_Layer: 0
+  m_Name: AsteroidGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2018206989409760826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7743587420275424454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4710383471167967343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7743587420275424454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329113f8d242d8a4aad9dd0c7f32bbb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfAsteroidsOnAnAxis: 5
+  numberOfPlanetsOnAnAxis: 1
+  numberOfGalaxiesOnAnAxis: 1
+  asteroidGridSpacing: 100
+  planetGridSpacing: 1500
+  galaxyGridSpacing: 2000
+  asteroids:
+  - {fileID: 993712454938207677, guid: 7c3d686c8f9c6b14ea7dad89cf8840bc, type: 3}
+  planets:
+  - {fileID: 2293872438049420387, guid: c149e66762d19d4419491c24d53088f1, type: 3}
+  - {fileID: 8454587142652486821, guid: 52f0f1b482286bd4682ec51b50292dc9, type: 3}
+  - {fileID: 7760228563163537458, guid: a64319b18ac0e7b4b989168ea0cc8db9, type: 3}
+  galaxies:
+  - {fileID: 5789425278823446135, guid: 023ff19fdf445c847925549d07a51066, type: 3}
+  - {fileID: 4313715299989055876, guid: 24b0a2a01b285464e9128455f62f9841, type: 3}
